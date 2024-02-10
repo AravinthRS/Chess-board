@@ -1,0 +1,29 @@
+html{
+    background-color: gray;
+}
+body{
+    height: 800px;
+    width: 800px;
+    background-color: white;
+    margin: 20px auto;
+}
+.row{
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+.card{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 75px;
+    color: red;
+    text-align: center;
+}
+.card :hover{
+    cursor: pointer;
+    background: brown;
+}
+.black{
+    background-color: black;
+}
